@@ -1,5 +1,5 @@
 {
-  "name": "test_plugin",
+  "name": "TestPlugin",
   "version": "1.0.0",
   "description": "Some Description",
   "main": "index.js",
@@ -17,5 +17,13 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinmaydash007/TestPlugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chinmaydash007/TestPlugin/issues"
+  },
+  "homepage": "https://github.com/chinmaydash007/TestPlugin#readme"
 }
