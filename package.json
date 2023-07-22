@@ -11,7 +11,8 @@
   "cordova": {
     "id": "com.chinmay.testplugin",
     "platforms": [
-      "android"
+      "android",
+      "ios"
     ]
   },
   "keywords": [
