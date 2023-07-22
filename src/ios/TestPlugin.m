@@ -33,6 +33,7 @@
     NSString* number2 = [command.arguments objectAtIndex:1];
     NSInteger result = [number1 integerValue] + [number2 integerValue];
     NSString *echo = [@(result) stringValue];
+    NSLog(@"addTwoNumber Result: %@", echo);
 
     if (echo != nil && [echo length] > 0) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:echo];
