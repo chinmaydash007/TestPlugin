@@ -1,5 +1,5 @@
 {
-  "name": "TestPlugin",
+  "name": "test-plugin",
   "version": "1.0.0",
   "description": "Some Description",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Chinmay",
   "license": "ISC",
   "cordova": {
-    "id": "com.chinmay.testplugin",
+    "id": "test-plugin",
     "platforms": [
       "android"
     ]
