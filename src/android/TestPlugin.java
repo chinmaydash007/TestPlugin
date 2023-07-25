@@ -20,7 +20,8 @@ public class TestPlugin extends CordovaPlugin {
             return true;
         } else if (action.equals("addTwoNumber")) {
             int n1 = args.getInt(0);
-            int result = n1;
+            int n2 = args.getInt(1);
+            int result = n1 + n2;
             System.out.println("addTwoNumber result: " + result);
             callbackContext.success(String.valueOf(result));
 
