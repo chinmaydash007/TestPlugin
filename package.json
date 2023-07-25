@@ -1,5 +1,5 @@
 {
-  "name": "test-plugin",
+  "name": "@chinmay.dash/test-plugin",
   "version": "2.0.0",
   "description": "Some Description",
   "main": "index.js",
